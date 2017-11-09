@@ -1,0 +1,54 @@
+phoenixmarketingpros.com/cpanel
+phoenixm
+uMGf4Nh_eSHP
+
+https://cpanel.phoenixmarketingpros.com
+phoenixm
+uMGf4Nh_eSHP
+
+
+savenhost.com
+d7G-6z8-xqB-xHw
+mnment@yahoo.com
+
+
+
+new bluehost ----------
+https://my.bluehost.com/web-hosting/cplogin
+brokeragetelecom.com / Ti@goR@ngel79
+
+
+url-------
+phoenixmarketingpros.com
+
+
+old nameserver-------
+phoenixmarketingpros.com name server ns2.savenhost.com.
+phoenixmarketingpros.com name server ns1.savenhost.com.
+
+
+old cpanel---------
+https://www.savenhost.com/clientarea.php
+mnment@yahoo.com / d7G-6z8-xqB-xHw
+
+
+study url--------
+https://www.cyberciti.biz/faq/unix-linux-dns-lookup-command/
+
+
+nslookup -type=A phoenixmarketingpros.com
+nslookup -type=A appsbee.com
+
+
+
+We want to change/add some extra record in DNS zone file, for domain "phoenixmarketingpros.com"
+Please add following "A" records:-
+
+host record			points to
+
+@				34.195.92.82
+*				34.195.92.82
+dev.phoenixmarketingpros.com	34.229.34.186
+
+
+Please don't change any mx record or any E-mail related records, because we want to use our E-mail as it is.

@@ -1,0 +1,64 @@
+http://dev.phoenixmarketingpros.com/
+
+NameVirtualHost *:443   ------73
+------------ssl/ https
+<VirtualHost *:443>
+    ServerName dev.phoenixmarketingpros.com
+    DocumentRoot "/var/www/html/"
+    SSLEngine on
+SSLProxyEngine On
+    SSLCertificateFile "/etc/ssl/certs/ssldev/50a7bda08c08740e37d40685633b073d.crt"
+    SSLCertificateKeyFile "/etc/ssl/certs/ssldev/d04c1_5b3ad_62eebc7365349f0194ec5379be0e0884.key"
+  #  SSLCertificateChainFile  "/etc/ssl/certs/ssldev/notrequirebundel.crt"
+        <Directory /var/www/html/>
+        AllowOverride All
+        Order Allow,Deny
+        Allow from all
+        </Directory>
+</VirtualHost>
+
+
+--------------http
+<VirtualHost *:80>
+   ServerName dev.phoenixmarketingpros.com
+   Redirect permanent / https://dev.phoenixmarketingpros.com/
+   DocumentRoot "/var/www/html/"
+   <Directory "/var/www/html/">
+        AllowOverride All
+        Allow from All   
+   </Directory>
+</VirtualHost>
+
+===================================================================================================
+yum install mod24_ssl
+
+http://phoenixmarketingpros.com/
+
+NameVirtualHost *:443   ------73
+
+----------------ssl/https
+<VirtualHost *:443>
+    ServerName phoenixmarketingpros.com
+    DocumentRoot "/var/www/html/"
+    SSLEngine on
+SSLProxyEngine On
+    SSLCertificateFile "/etc/ssl/certs/sslpro/50a7bda08c08740e37d40685633b073d.crt"
+    SSLCertificateKeyFile "/etc/ssl/sslpro/1578ea2af8de0ec9e211d7eeff8f07e0.key"
+  #  SSLCertificateChainFile  "/etc/ssl/certs/yajuhealthonmob/gd_bundle-g2-g1.crt"
+        <Directory /var/www/html/>
+        AllowOverride All
+        Order Allow,Deny
+        Allow from all
+        </Directory>
+</VirtualHost>
+
+--------------http
+<VirtualHost *:80>
+   ServerName phoenixmarketingpros.com
+   Redirect permanent / https://phoenixmarketingpros.com/
+   DocumentRoot "/var/www/html/"
+   <Directory "/var/www/html/">
+        AllowOverride All
+        Allow from All   
+   </Directory>
+</VirtualHost>

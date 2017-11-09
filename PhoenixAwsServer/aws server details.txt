@@ -1,0 +1,34 @@
+http://dev.phoenixmarketingpros.com/
+login: workwithtiago@gmail.com
+pass: Broadway8
+use this - Ti@goR@ngel
+		Ti@goR@ngel1079
+			Phoenix2017
+
+34.229.34.186
+ssh -i "phoenixm.pem" ec2-user@ec2-34-229-34-186.compute-1.amazonaws.com
+
+
+=======ftp
+host: 34.229.34.186
+user: phoenixftpsusr
+pass: Phip48!SLiVe088
+url: http://phoenixmarketingpros.com
+
+========mysql========
+root / Ph0&e5SuprP888
+
+phoenix_last
+
+###################################################################
+ssh -i "phoenixm.pem" ec2-user@ec2-34-195-92-82.compute-1.amazonaws.com
+http://www.phoenixmarketingpros.com/
+aws- 34.195.92.82
+
+
+
+==========ftp
+host: 34.195.92.82
+user: phoenixftpsusr
+pass: Phip48!SLiVe088
+url: http://phoenixmarketingpros.com
